@@ -1,0 +1,41 @@
+
+.App {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ticket-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ticket-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.ticket-card h2 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.ticket-card p {
+    font-size: 1em;
+    color: #666;
+}
+
+.select-container {
+    display: flex;
+    justify-content: space-between;
+}
+.select-container select {
+    flex: 1;
+    height: 50px;
+    margin: 10px;
+}
